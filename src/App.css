@@ -79,7 +79,9 @@ a{
 .img-container img {
   height: 200px;
 }
-
+#flexSwitchCheckChecked{
+  cursor: pointer;
+}
 
 @media screen and (max-width:500px){
   .Container {
