@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/BMI/static/css/main.a51b8f44.css",
-    "main.js": "/BMI/static/js/main.f51d8324.js",
+    "main.css": "/BMI/static/css/main.6be200a8.css",
+    "main.js": "/BMI/static/js/main.fbb21f34.js",
     "static/js/787.bd71c651.chunk.js": "/BMI/static/js/787.bd71c651.chunk.js",
+    "static/media/Obese.png": "/BMI/static/media/Obese.6b65ebe273595a1b5423.png",
     "index.html": "/BMI/index.html",
-    "main.a51b8f44.css.map": "/BMI/static/css/main.a51b8f44.css.map",
-    "main.f51d8324.js.map": "/BMI/static/js/main.f51d8324.js.map",
+    "main.6be200a8.css.map": "/BMI/static/css/main.6be200a8.css.map",
+    "main.fbb21f34.js.map": "/BMI/static/js/main.fbb21f34.js.map",
     "787.bd71c651.chunk.js.map": "/BMI/static/js/787.bd71c651.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a51b8f44.css",
-    "static/js/main.f51d8324.js"
+    "static/css/main.6be200a8.css",
+    "static/js/main.fbb21f34.js"
   ]
 }
