@@ -24,7 +24,7 @@ function BMI(){
         }
         else if (result >= 18.5 && result < 24.99){
             imgSrc = require('/home/v-mmansuri/Mohd_Khalid/Project_s/BMI/bmi/src/assests/Health.png')
-        }else{
+        }else if(result > 30){
             imgSrc = require('/home/v-mmansuri/Mohd_Khalid/Project_s/BMI/bmi/src/assests/Obese.png')
         }
     }   
