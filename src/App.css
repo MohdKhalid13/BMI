@@ -72,6 +72,15 @@ a{
   font-size: 50px;
 }
 
+.img-container {
+  text-align: center;
+}
+
+.img-container img {
+  height: 200px;
+}
+
+
 @media screen and (max-width:500px){
   .Container {
     box-shadow: 12px 12px 12px 12px #ccc;
@@ -95,8 +104,4 @@ a{
     width: 100vw;
     margin-top: 10px;
   }
-
-
- 
-  
 }

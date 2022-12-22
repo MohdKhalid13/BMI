@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 
-function BMI(props){
+function BMI(){
 
     const [weight, setweight] = useState("0");
     const [height, setheight] = useState("0");
@@ -13,6 +13,21 @@ function BMI(props){
     const Updateheight = (e) =>{
         setheight(e.target.value)
     }
+
+    let imgSrc;
+
+    if(result < 1 ){
+        imgSrc =  null
+    }else {
+        if(result < 18.5){
+            imgSrc = require('/home/v-mmansuri/Mohd_Khalid/Project_s/BMI/bmi/src/assests/Slim.jpeg')
+        }
+        else if (result >= 18.5 && result < 24.99){
+            imgSrc = require('/home/v-mmansuri/Mohd_Khalid/Project_s/BMI/bmi/src/assests/Health.png')
+        }else{
+            imgSrc = require('/home/v-mmansuri/Mohd_Khalid/Project_s/BMI/bmi/src/assests/Obese.png')
+        }
+    }   
 
     const UpdateResult = () =>{
         if (result >= 18.5 && result <= 24.99) {
@@ -56,6 +71,9 @@ function BMI(props){
                 <div>
                     <label>{result}</label>
                     <div className="result">{UpdateResult()}</div>
+                </div>
+                <div className="img-container">
+                    <img src={imgSrc} alt=""></img>
                 </div>
 
 
