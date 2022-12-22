@@ -21,8 +21,10 @@ function BMI(props){
             return <div> "You are overweight"</div>;
           } else if (result >= 30) {
             return <div> "You are obese"</div>;
-          }    
+          } else if (result < 18.5 && result > 0) {
+            return <div> "You are underweight"</div>;
         }
+    }
 
 
           function calculateBMIValue() {
@@ -36,14 +38,14 @@ function BMI(props){
         <div className="App">
             <div className="Container">
                 
-                <label>Enter The Weight</label>
+                <label>Enter The Weight (kg)</label>
                 <input
                     type="text"
                     value={weight}
                     onChange={UpdateWeight}
                 ></input>
 
-               <label>Enter The Height</label>
+               <label>Enter The Height (cm)</label>
                 <input
                     type="text"
                     value={height}
